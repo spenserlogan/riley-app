@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, #ffffff 0%, #ffffff 100%);
+    color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 0rem;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+}
+
+header {
+    padding: 10px 5% 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #edd8b4;
+}
+
+.hero-container {
+    height: 100vh;
+    background-image: url("./IMG/photo1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.hero-container div {
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.hero-container h1 {
+    line-height: 1.875;
+    font-weight: 900;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+.hero-container p {
+    line-height: 1.875;
+    font-weight: 900;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+.button {
+    background-color: #e0a84c;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    margin: 30px 0px 0px;
+    padding: 15px 40px;
+}
+
+.elope-container {
+    background-color: #edd8b4;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.elope-container img {
+    width: 200px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+}
+
