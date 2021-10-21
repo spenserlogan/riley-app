@@ -1,6 +1,6 @@
-* {
-    box-sizing: border-box;
-}
+/* * { */
+    /* box-sizing: border-box; */
+/* } */
 
 body {
     margin: 0px;
@@ -16,39 +16,6 @@ h4,
 h5,
 h6 {
     margin: 10px;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-nav a {
-    padding: 5px 10px;
-    margin-right: 10px;
-    background-image: linear-gradient(270deg, #ffffff 0%, #ffffff 100%);
-    color: black;
-    background-repeat: no-repeat;
-    background-size: 100% 0rem;
-    background-position: bottom;
-    transition: all 0.25s ease-in;
-    font-size: 1.4rem;
-}
-
-nav a:hover {
-    background-size: 100% 100%;
-}
-
-header {
-    padding: 10px 5% 10px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #edd8b4;
 }
 
 .hero-container {
@@ -97,18 +64,53 @@ header {
     padding: 15px 40px;
 }
 
+/* .main-section {
+    padding: 10px 60px 10px 60px;
+} */
+
 .elope-container {
-    background-color: #edd8b4;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
+    padding: 50px;
+    background-color: #917a2c;
 }
 
-.elope-container img {
-    width: 200px;
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    align-content: center;   
+.elope-container h2 {
+    padding-left: 100px;
+    padding-bottom: 20px;
 }
+
+ol.firstList li {
+    position: relative;
+    font-size: 1.375rem;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+.how-to-container {
+    padding: 50px;
+    background-color: #917a2c;
+}
+
+.molly-one, .molly-two, .molly-three {
+    padding: 10px;
+}
+
+ol.secondList li {
+    position: relative;
+    font-size: 1.375rem;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+.about-container {
+    padding: 50px;
+    background-color: #195411;
+}
+
+.aboutText {
+    font-size: 1.375rem;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+
 
