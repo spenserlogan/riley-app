@@ -80,7 +80,15 @@ ol.firstList li {
     background-color: #917a2c;
 }
 .how-to-container img {
-    padding: 10px;
+    padding: 20px;
+}
+
+.couple-three {
+    padding-left: 40px;
+}
+
+.couple-four {
+    padding-left: 100px;
 }
 
 ol.secondList li {
@@ -122,3 +130,4 @@ html {
 .about-me-container {
     background-color: #917a2c;
 }
+
