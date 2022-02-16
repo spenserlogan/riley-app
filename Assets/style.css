@@ -31,21 +31,20 @@ h6 {
 .jumbotron-container {
     padding: 150px;
     font-size: 1.375rem;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color: white;
 }
 
-.button {
-    background-color: #e0a84c;
+.btn {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: white;
+    color: #e0a84c;
     letter-spacing: 1px;
     font-weight: 700;
     border-radius: 4px;
     border: none;
-    margin: 30px 0px 0px;
+    margin: 18px 0px 0px;
     padding: 15px 40px;
 }
 
@@ -55,16 +54,16 @@ h6 {
 
 .elope-container {
     padding: 50px;
-    background-color: #917a2c;
+    background-color: #fff9f2;
+}
+
+.elope-container h2 {
+    border-bottom: 5px dotted #ffb14a;
+    border-spacing: 5px;
 }
 
 .elope-container img {
     padding: 10px;
-}
-
-.elope-container h2 {
-    padding-left: 100px;
-    padding-bottom: 20px;
 }
 
 ol.firstList li {
@@ -77,8 +76,14 @@ ol.firstList li {
 
 .how-to-container {
     padding: 50px;
-    background-color: #917a2c;
+    background-color: #325c8a;
 }
+
+.how-to-container h2 {
+    border-bottom: 5px dotted #ffb14a;
+    border-spacing: 5px;
+}
+
 .how-to-container img {
     padding: 20px;
 }
@@ -100,7 +105,7 @@ ol.secondList li {
 
 .about-container {
     padding: 50px;
-    background-color: hsl(113, 66%, 20%);
+    background-color: #db7c70;
 }
 
 .aboutText {
@@ -110,12 +115,13 @@ ol.secondList li {
 }
 
 .about-container h2 {
-    padding: 0px 0px 20px 75px;
+    border-bottom: 5px dotted #ffb14a;
+    border-spacing: 5px;
 }
 
 .contact-container {
-    background-color:hsl(113, 66%, 20%);
-    padding: 10px 0px 40px 0px;
+    background-color: #db7c70;
+    padding: 20px 0px 50px 0px;
 }
 
 .contact-container a {
@@ -124,10 +130,15 @@ ol.secondList li {
 }
 
 html {
-    background-color: #917a2c;
+    background-color: white;
 }
 
-.about-me-container {
-    background-color: #917a2c;
+.socials-container {
+    padding: 50px 20px 50px 0px;
+    background-color: #5f666e;
+    font-size: 1 rem;
 }
 
+.socials-container a {
+    padding: 10px;
+}
