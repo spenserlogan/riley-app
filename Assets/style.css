@@ -3,10 +3,8 @@
 /* } */
 
 body {
-    margin: 0px;
-    padding: 0px;
     font-family: 'Merriweather', serif;
-    color: white;
+    background-color: tomato;
 }
 
 h1,
@@ -35,6 +33,11 @@ h6 {
     color: white;
 }
 
+.navbar a:hover {
+    background-color: #667761;
+    opacity: 0, 50%, 100%;
+}
+
 .btn {
     display: inline-block;
     position: relative;
@@ -54,7 +57,7 @@ h6 {
 
 .elope-container {
     padding: 50px;
-    background-color: #fff9f2;
+    background-color: white;
 }
 
 .elope-container h2 {
@@ -74,9 +77,37 @@ ol.firstList li {
     padding-right: 20px;
 }
 
+.custom-shape-divider-top-1647374729 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1647374729 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 83px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1647374729 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.page-break-container {
+    background-image: url(./IMG/work-break.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 85vh;
+}
+
 .how-to-container {
     padding: 50px;
-    background-color: #325c8a;
+    background-color: #898952;
 }
 
 .how-to-container h2 {
@@ -85,7 +116,7 @@ ol.firstList li {
 }
 
 .how-to-container img {
-    padding: 20px;
+    padding: 0px;
 }
 
 .couple-three {
@@ -105,7 +136,7 @@ ol.secondList li {
 
 .about-container {
     padding: 50px;
-    background-color: #db7c70;
+    background-color: #7D4F50;
 }
 
 .aboutText {
@@ -120,7 +151,7 @@ ol.secondList li {
 }
 
 .contact-container {
-    background-color: #db7c70;
+    background-color: white;
     padding: 20px 0px 50px 0px;
 }
 
@@ -129,8 +160,8 @@ ol.secondList li {
     padding: 5px;
 }
 
-html {
-    background-color: white;
+.contact-container a {
+    background-color: #667761;
 }
 
 .socials-container {
@@ -141,4 +172,51 @@ html {
 
 .socials-container a {
     padding: 10px;
+}
+
+.about-me-container {
+    background-image: url(./IMG/riley-three.JPG);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutOne-container h1 {
+    position: relative;
+    margin-top: 250px;
+    padding-left: 100px;
+}
+
+.aboutTwo-container h2 {
+    margin: 50px 0px 50px 100px;
+    padding-left: 69px;
+}
+
+.socialsOne-container {
+    padding: 50px 20px 50px 0px;
+    background-color: #5f666e;
+    font-size: 1 rem;
+}
+
+.socialsOne-container a {
+    padding: 10px;
+}
+
+.contact-me-container {
+    background-image: url(./IMG/riley-three.JPG);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.contactMe-container h1 {
+    position: relative;
+    margin-top: 250px;
+    padding-left: 100px;
+}
+
+.form-group {
+    width: auto;
 }
