@@ -17,7 +17,7 @@ h6 {
 }
 
 
-.jumbotron {
+.main-container {
     height: 100vh;
     background-image: url("./IMG/jumbo-one.JPG");
     background-repeat: no-repeat;
@@ -25,20 +25,18 @@ h6 {
     background-size: cover;
 }
 
-
-.jumbotron-container {
-    padding: 150px;
-    font-size: 1.375rem;
-    margin-bottom: 40px;
-    color: white;
-}
-
 .navbar a:hover {
     background-color: #667761;
     opacity: 0, 50%, 100%;
 }
 
-.btn {
+.main-action-container {
+    margin-bottom: 75px;
+    margin-right: 200px;
+    margin-top: 300px;
+}
+
+/* .btn {
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -49,7 +47,7 @@ h6 {
     border: none;
     margin: 18px 0px 0px;
     padding: 15px 40px;
-}
+} */
 
 /* .main-section {
     padding: 10px 60px 10px 60px;
@@ -220,3 +218,5 @@ ol.secondList li {
 .form-group {
     width: auto;
 }
+
+.carousel
