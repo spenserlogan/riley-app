@@ -2,9 +2,10 @@
     /* box-sizing: border-box; */
 /* } */
 
+/* index.html */
+
 body {
     font-family: 'Merriweather', serif;
-    background-color: tomato;
 }
 
 h1,
@@ -13,7 +14,12 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Merriweather', serif;
     margin: 10px;
+}
+
+li {
+    font-family: 'Fira Sans Condensed', sans-serif;;
 }
 
 
@@ -32,22 +38,25 @@ h6 {
 
 .main-action-container {
     margin-bottom: 75px;
-    margin-right: 200px;
+    margin-left: 700px;
     margin-top: 300px;
 }
 
-/* .btn {
+.btn {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: #e0a84c;
     letter-spacing: 1px;
     font-weight: 700;
     border-radius: 4px;
     border: none;
-    margin: 18px 0px 0px;
+    margin: 18px 0px 20px 0px;
     padding: 15px 40px;
-} */
+}
+
+.btn-default {
+    background-color:#CFE4F2 !important;
+}
 
 /* .main-section {
     padding: 10px 60px 10px 60px;
@@ -63,6 +72,11 @@ h6 {
     border-spacing: 5px;
 }
 
+.elope-container h1 {
+    margin-bottom: 50px;
+    padding-right: 75px;
+}
+
 .elope-container img {
     padding: 10px;
 }
@@ -70,7 +84,7 @@ h6 {
 ol.firstList li {
     position: relative;
     font-size: 1.375rem;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     padding-left: 5px;
     padding-right: 20px;
 }
@@ -109,8 +123,11 @@ ol.firstList li {
 }
 
 .how-to-container h2 {
-    border-bottom: 5px dotted #ffb14a;
-    border-spacing: 5px;
+    padding-left: 75px;
+    margin-bottom: 20px;
+    /* border-bottom: 5px dotted black;
+    border-spacing: 5px; */
+
 }
 
 .how-to-container img {
@@ -134,7 +151,7 @@ ol.secondList li {
 
 .about-container {
     padding: 50px;
-    background-color: #7D4F50;
+    background-color: #F3AE91;
 }
 
 .aboutText {
@@ -144,8 +161,8 @@ ol.secondList li {
 }
 
 .about-container h2 {
-    border-bottom: 5px dotted #ffb14a;
-    border-spacing: 5px;
+    padding-right: 300px;
+    margin-bottom: 50px;
 }
 
 .contact-container {
@@ -172,8 +189,10 @@ ol.secondList li {
     padding: 10px;
 }
 
+/* about.html */
+
 .about-me-container {
-    background-image: url(./IMG/riley-three.JPG);
+    background-image: url("../images/riley-three.JPG");
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -202,7 +221,7 @@ ol.secondList li {
 }
 
 .contact-me-container {
-    background-image: url(./IMG/riley-three.JPG);
+    background-image: url("../images/riley-three.JPG");
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -218,6 +237,8 @@ ol.secondList li {
 .form-group {
     width: auto;
 }
+
+/* work.html */
 
 .carousel {
     
